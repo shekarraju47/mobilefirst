@@ -10,7 +10,7 @@ const Home = () => {
 
   const Logout = () => {
     localStorage.removeItem("userDetails");
-    location("/login");
+    location("/mobilefirst/login");
   };
 
   const getData = async () => {
