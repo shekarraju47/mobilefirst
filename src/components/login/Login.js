@@ -20,7 +20,7 @@ const Login = () => {
       userCredentioals.password === password
     ) {
       localStorage.setItem("userDetails", userCredentioals);
-      location("/");
+      location("/mobilefirst");
     } else {
       setError(true);
     }
@@ -28,7 +28,7 @@ const Login = () => {
 
   const token = localStorage.getItem("userDetails");
   if (token) {
-    return <Navigate to={"/"} />;
+    return <Navigate to={"/mobilefirst"} />;
   }
 
   return (
