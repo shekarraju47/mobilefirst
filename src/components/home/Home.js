@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Navigate } from "react-router-dom";
 import { TailSpin } from "react-loader-spinner";
 
 const Home = () => {
@@ -30,6 +30,12 @@ const Home = () => {
   const nextJokes = () => {
     getData();
   };
+
+  const token = localStorage.getItem("userDetails");
+
+  if (!token) {
+    return <Navigate to={"/login"} />;
+  }
 
   return (
     <div>
