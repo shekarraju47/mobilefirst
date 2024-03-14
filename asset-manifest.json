@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mobilefirst/static/css/main.73f4a66b.css",
-    "main.js": "/mobilefirst/static/js/main.c4588ab6.js",
+    "main.js": "/mobilefirst/static/js/main.b9a29bb7.js",
     "index.html": "/mobilefirst/index.html",
     "main.73f4a66b.css.map": "/mobilefirst/static/css/main.73f4a66b.css.map",
-    "main.c4588ab6.js.map": "/mobilefirst/static/js/main.c4588ab6.js.map"
+    "main.b9a29bb7.js.map": "/mobilefirst/static/js/main.b9a29bb7.js.map"
   },
   "entrypoints": [
     "static/css/main.73f4a66b.css",
-    "static/js/main.c4588ab6.js"
+    "static/js/main.b9a29bb7.js"
   ]
 }
