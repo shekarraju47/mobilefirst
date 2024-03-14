@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shekarraju47/mobilefirst/static/css/main.73f4a66b.css",
+    "main.js": "/shekarraju47/mobilefirst/static/js/main.d17689eb.js",
+    "index.html": "/shekarraju47/mobilefirst/index.html",
+    "main.73f4a66b.css.map": "/shekarraju47/mobilefirst/static/css/main.73f4a66b.css.map",
+    "main.d17689eb.js.map": "/shekarraju47/mobilefirst/static/js/main.d17689eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73f4a66b.css",
+    "static/js/main.d17689eb.js"
+  ]
+}
