@@ -6,7 +6,7 @@ const Protected = () => {
   console.log(token);
 
   if (token === undefined) {
-    return <Navigate to={"/login"} />;
+    return <Navigate to={"/mobilefirst/login"} />;
   }
   return <Outlet />;
 };

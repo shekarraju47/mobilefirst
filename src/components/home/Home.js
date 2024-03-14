@@ -34,7 +34,7 @@ const Home = () => {
   const token = localStorage.getItem("userDetails");
 
   if (!token) {
-    return <Navigate to={"/login"} />;
+    return <Navigate to={"/mobilefirst/login"} />;
   }
 
   return (

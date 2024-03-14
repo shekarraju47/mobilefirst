@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 const Notfound = () => {
   const navigate = useNavigate();
   const login = () => {
-    navigate("/login");
+    navigate("/mobilefirst/login");
   };
   return (
     <div>

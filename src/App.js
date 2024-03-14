@@ -12,7 +12,7 @@ const App = () => {
         <Route Component={Protected}>
           <Route path="/mobilefirst" element={<Home />} />
         </Route>
-        <Route path="/login" element={<Login />} />
+        <Route path="/mobilefirst/login" element={<Login />} />
         <Route path="/404" element={<Notfound />} />
         <Route path="*" element={<Navigate to="/404" replace />} />
       </Routes>
